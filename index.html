@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Protest+Strike&family=Rubik+Doodle+Shadow&display=swap"
+        rel="stylesheet">
+    <title>Rick and morty</title>
+</head>
+
+<body class="fondopag">
+    <!-- navbar -->
+    <nav class="navbar-fondo navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <img class="nav-imagen"
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c2047868-eb3f-45a9-84ac-a12510bfedd9/dgp0oef-42e29863-2cbe-4742-b8ca-4c77166c18eb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MyMDQ3ODY4LWViM2YtNDVhOS04NGFjLWExMjUxMGJmZWRkOVwvZGdwMG9lZi00MmUyOTg2My0yY2JlLTQ3NDItYjhjYS00Yzc3MTY2YzE4ZWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6TkD38lsulMDXIjtuVnQYKM-TGvpqUWfbuy9FaxEMhs"
+                alt="">
+        </div>
+    </nav>
+
+    <section class="container">
+        <!-- Encabezado -->
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-lg-6">
+                <div class="text-center">
+                    <img class="img-encabezado"
+                        src="https://1000logos.net/wp-content/uploads/2022/03/Rick-and-Morty.png" alt="">
+                </div>
+                <div class="text-center">
+                    <blockquote class="blockquote">
+                        <h2 class="text-encabezado">Personajes</h2>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Principales, secundarios y otros..
+                    </figcaption>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="area-personajes">
+
+                <!-- 1-5  -->
+                <div class="col-4">
+                    <div class="zona-personaje" onmouseenter="iniciarBusquedaPersonajes(1, 5, 'personajes-1')">
+                        <p>Dimensiones Principales</p>
+                    </div>
+                    <div id="personajes-1" class="info-personaje"></div>
+                </div>
+
+                <!-- 6-11  -->
+                <div class="col-4">
+                    <div class="zona-personaje" onmouseenter="iniciarBusquedaPersonajes(6, 11, 'personajes-2')">
+                        <p>Realidades Alteradas</p>
+                    </div>
+                    <div id="personajes-2" class="info-personaje"></div>
+                </div>
+
+                <!-- 12-17  -->
+                <div class="col-4">
+                    <div class="zona-personaje" onmouseenter="iniciarBusquedaPersonajes(12, 17, 'personajes-3')">
+                        <p>Habitantes del Garaje</p>
+                    </div>
+                    <div id="personajes-3" class="info-personaje"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>

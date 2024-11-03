@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;  
+    width: 100%;
+    cursor: url('data:image/x-icon;base64,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'), auto;
+}
+
+.fondopag {
+    background-color: #011f44;
+}
+
+.navbar-fondo {
+    background-image: url(https://i.pinimg.com/originals/d1/19/7e/d1197e58dd9b8740316f576061396d00.gif);
+    background-position: center;
+}
+
+.nav-imagen{
+    width: 6%;
+}
+
+.img-encabezado {
+    width: 80%;
+}
+
+.text-encabezado{
+    font-family: "Lexend Giga", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #05bacd;    
+    text-shadow: 3px 2px 2px #b1d848;
+}
+
+
+.zona-personaje {
+    padding: 5%;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/a4/f7/79/a4f779d4d3b7f30a6b597e324667942f.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #393450;
+    text-shadow: 0px 2px 4px #95ff9c;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-inline: 10px;
+    margin-left: 10%;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.zona-personaje:hover {
+    transform: scale(1.1);
+}
+
+
+.area-personajes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.personaje-tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: url(https://media.tenor.com/BgR83Df82t0AAAAi/portal-rick-and-morty.gif);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    padding: 20%;
+    margin-bottom: 10px;
+    margin: 20px;
+    transition: transform 0.3s;
+    opacity: 0;
+    transform: translateY(0.8px);
+}
+
+.personaje-tarjeta.visible {
+    animation: zoomIn 0.8s ease-out; 
+}
+
+.personaje-tarjeta:hover {
+    transform: translateY(-20px);
+}
+
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.img-personaje {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.info-personaje {
+    text-align: center;
+    font-size: 15px;
+    color: #393450;
+    font-weight: bold;
+}
+
+.personaje-tarjeta.visible {
+    opacity: 1;
+}
+
+@media (max-width: 991px){
+    .personaje-tarjeta{
+        padding: 10%;  
+        width: 100%;      
+    }
+
+    .zona-personaje{
+        font-size: 15px;
+        padding: 5%;
+        margin-left: 25%;
+    }
+
+    .img-personaje{
+       width: 45%;
+
+    }
+    .info-personaje{
+        font-size: 10px;
+    }
+    
+}
